@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(void){
+    ina a;
+    scanf("%d", &a);
+    while(a!=0){
+        scanf("%d", &a);
+        printf("%d\n", a);
+        if(a==0){
+            break;
+        }
+    }
+    return 0;
+}

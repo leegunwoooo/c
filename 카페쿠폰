@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    int K, N, cp=0, ;
+    scanf("%d %d", &K, &N);
+
+}
