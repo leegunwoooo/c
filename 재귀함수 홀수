@@ -1,0 +1,16 @@
+void hol(int a, int b){
+    if(a>b){
+        return;
+    }
+    if(a%2==0){
+        printf("%d", a);
+    }
+    hol(a+1, b);    
+}
+#include<stdio.h>
+int main(){
+    int num,num2;
+    scanf("%d %d", &num, &num2);
+    hol(num, num2);
+    return 0;
+}
