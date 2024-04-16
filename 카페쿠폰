@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int K, N, cp=0, ;
+    int K, N, cp=0, ㅈ;
     scanf("%d %d", &K, &N);
 
 }
