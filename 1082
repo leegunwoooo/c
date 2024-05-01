@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%x", &a);
+    for(int i=0; i<16; i++){
+        printf("%xX%x=%x", a, i, a*i);
+    }
+    return 0;
+}
